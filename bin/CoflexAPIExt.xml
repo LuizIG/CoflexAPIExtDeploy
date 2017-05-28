@@ -483,5 +483,70 @@ Generates an URI-friendly ID for the <see cref="T:System.Web.Http.Description.Ap
  </summary>
  <param name="documentPath">The physical path to XML document.</param>
 </member>
+<member name="M:CoflexAPIExt.Controllers.ClientsController.GetClientsView">
+ <summary>
+ Obtiene el listado de clientes
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:CoflexAPIExt.Controllers.ClientsController.GetClientsView(System.String)">
+ <summary>
+ Obtiene el detalle de un cliente por id
+ </summary>
+ <param name="id">Id del cliente</param>
+ <returns></returns>
+</member>
+<member name="M:CoflexAPIExt.Controllers.ComponentsController.GetComponentsView">
+ <summary>
+ Obtiene la lista de los componentes
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:CoflexAPIExt.Controllers.ComponentsController.GetComponentsView(System.String)">
+ <summary>
+ Obtiene el detalle del componente por id
+ </summary>
+ <param name="id">Id del componente</param>
+ <returns></returns>
+</member>
+<member name="M:CoflexAPIExt.Controllers.DetailComponetsController.GetDetailComponetsView">
+ <summary>
+ Obtiene la lista de componentes con detalles
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:CoflexAPIExt.Controllers.DetailComponetsController.GetDetailComponetsView(System.String)">
+ <summary>
+ Obtiene el detalle de componente 
+ </summary>
+ <param name="id">Id del componente</param>
+ <returns></returns>
+</member>
+<member name="M:CoflexAPIExt.Controllers.ExchangeRateController.GetExchangeRateView">
+ <summary>
+ Obtiene el tipo de cambio
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:CoflexAPIExt.Controllers.ItemComponentsController.GetItemComponentsView(System.String)">
+ <summary>
+ Obtiene el detalle de item con sus componentes
+ </summary>
+ <param name="id">Sku</param>
+ <returns></returns>
+</member>
+<member name="M:CoflexAPIExt.Controllers.ItemsController.GetItemsView">
+ <summary>
+ Obtiene la liste de articulos
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:CoflexAPIExt.Controllers.ItemsController.GetItemsView(System.String)">
+ <summary>
+ Obtiene la lista de articulos por cliente
+ </summary>
+ <param name="ClientId">Id del cliente</param>
+ <returns></returns>
+</member>
 </members>
 </doc>
